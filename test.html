@@ -1,0 +1,31 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <title>Send regards</title>
+    <link rel="stylesheet" type="text/css" href="test.css" media="screen">
+</head>
+<body>
+    
+    
+    <div align = "center" style="padding-top: 120px">
+        <textarea id="txtBox" style="outline: none; border-radius: 6px;" placeholder="Your message" cols="50" rows="15"></textarea>
+    </div>
+    <div align = "center" style="padding-top: 10px">
+        <button id="submitBtn" onclick="writeDB()">Send message</button>
+    </div>
+    
+    <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
+    <script>
+        var config = {
+        apiKey: "AIzaSyD8cXIxJPZeVUW6kqt9YjNmy_5QlnXqI7Y",
+        authDomain: "testproject-8888.firebaseapp.com",
+        databaseURL: "https://testproject-8888.firebaseio.com",
+        projectId: "testproject-8888",
+        storageBucket: "testproject-8888.appspot.com",
+        messagingSenderId: "495982759381"
+        };
+        firebase.initializeApp(config);
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>

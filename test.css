@@ -1,0 +1,27 @@
+textarea {
+   resize: none;
+}
+
+body {background-color: cyan;}
+
+div {
+    width:100%;
+    overflow: hidden;
+}
+
+.button {
+    border: none;
+    outline: 0;
+    font-size: 22px;
+    border-radius: 2px;
+    background-color:lime;
+    color: aliceblue;
+    width: 180px;
+    height: 60px;
+    cursor: pointer
+    
+}
+
+.button:hover {
+    background-color: #33ccff;
+}
